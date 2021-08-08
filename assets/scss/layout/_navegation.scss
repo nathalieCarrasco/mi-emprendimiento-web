@@ -1,0 +1,35 @@
+.navigation {
+    margin: 4rem 4% 0 0;
+    padding-left: 0;
+    padding-right: 0;
+ 
+
+    &__logo img {
+        position: absolute;
+        width: 2rem;
+        height: auto;
+        top: .6rem;
+
+        &:hover {
+            top: .5rem;
+            width: 2.5rem;
+
+        }
+    }
+}
+.navbar-brand  {
+    position: relative;
+    font-family: $poppins;
+    font-weight: $fw-regular;
+    font-size: $xxx-large;
+}
+
+.nav-link {
+    font-size: $x-small;
+    font-weight: $fw-bold;
+
+}
+
+.navbar-toggler-icon {
+    border: none;
+}

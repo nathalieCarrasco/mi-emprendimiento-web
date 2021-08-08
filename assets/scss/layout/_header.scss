@@ -1,0 +1,11 @@
+.header__container {
+    display: flex;
+    margin-top: 3.5rem;
+    justify-content: center;
+
+    &-banner {
+        width: 25rem;
+        height: auto;
+    }
+
+};

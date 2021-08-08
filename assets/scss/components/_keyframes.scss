@@ -1,0 +1,50 @@
+.tag {
+    animation: slide 3.3s infinite linear;
+    -webkit-animation: slide 3.3s infinite linear;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(30%, 0);
+        -webkit-transform: translate(30%, 0);
+        -moz-transform: translate(30%, 0);
+        -ms-transform: translate(30%, 0);
+        -o-transform: translate(30%, 0);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        
+    }
+}
+
+.rueda {
+    -webkit-animation: 3s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 79% 80%;
+    transform-origin: 79% 80%;
+}

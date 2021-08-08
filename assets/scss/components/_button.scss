@@ -1,0 +1,15 @@
+.button_send {
+    border-radius: 5px;
+    background-color: $tangarine;
+    border: 1.5px solid $gray;
+    color: $black;
+    font-size: $small;
+    padding: 0 .3rem;
+    box-shadow: inset none;
+    margin-left: 5px;
+    
+    &:hover {
+        background-color: $white;
+        color: $black;
+    }
+};
