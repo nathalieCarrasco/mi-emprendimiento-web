@@ -1,0 +1,159 @@
+//Row
+.gr-row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 15px 20px;
+
+}
+
+
+// Col-
+.gr-col-12 {
+    grid-column: span 12
+}
+
+.gr-col-11 {
+    grid-column: span 11;
+}
+
+.gr-col-10 {
+    grid-column: span 10
+}
+
+.gr-col-9 {
+    grid-column: span 9
+}
+
+.gr-col-8 {
+    grid-column: span 8
+}
+
+.gr-col-7 {
+    grid-column: span 7
+}
+
+.gr-col-6 {
+    grid-column: span 6
+}
+
+.gr-col-5 {
+    grid-column: span 5
+}
+
+.gr-col-4 {
+    grid-column: span 4
+}
+
+.gr-col-3 {
+    grid-column: span 3
+}
+
+.gr-col-2 {
+    grid-column: span 2
+}
+
+.gr-col-1 {
+    grid-column: span 1
+}
+
+
+
+@media (max-width: 768px) {
+    .gr-col-md-12 {
+        grid-column: span 12
+    }
+    
+    .gr-col-md-11 {
+        grid-column: span 11;
+    }
+    
+    .gr-col-md-10 {
+        grid-column: span 10
+    }
+    
+    .gr-col-md-9 {
+        grid-column: span 9
+    }
+    
+    .gr-col-md-8 {
+        grid-column: span 8
+    }
+    
+    .gr-col-md-7 {
+        grid-column: span 7
+    }
+    
+    .gr-col-md-6 {
+        grid-column: span 6
+    }
+    
+    .gr-col-md-5 {
+        grid-column: span 5
+    }
+    
+    .gr-col-md-4 {
+        grid-column: span 4
+    }
+    
+    .gr-col-md-3 {
+        grid-column: span 3
+    }
+    
+    .gr-col-md-2 {
+        grid-column: span 2
+    }
+    
+    .gr-col-md-1 {
+        grid-column: span 1
+    }
+}
+
+@media (max-width: 576px) {
+    .gr-col-sm-12 {
+        grid-column: span 12
+    }
+    
+    .gr-col-sm-11 {
+        grid-column: span 11;
+    }
+    
+    .gr-col-sm-10 {
+        grid-column: span 10
+    }
+    
+    .gr-col-sm-9 {
+        grid-column: span 9
+    }
+    
+    .gr-col-sm-8 {
+        grid-column: span 8
+    }
+    
+    .gr-col-sm-7 {
+        grid-column: span 7
+    }
+    
+    .gr-col-sm-6 {
+        grid-column: span 6
+    }
+    
+    .gr-col-sm-5 {
+        grid-column: span 5
+    }
+    
+    .gr-col-sm-4 {
+        grid-column: span 4
+    }
+    
+    .gr-col-sm-3 {
+        grid-column: span 3
+    }
+    
+    .gr-col-sm-2 {
+        grid-column: span 2
+    }
+    
+    .gr-col-sm-1 {
+        grid-column: span 1
+    }
+};
